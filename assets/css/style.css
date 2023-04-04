@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center  {
+    padding-left: calc(50% - 600px) ;
+    padding-right:calc(50% - 600px) ;
+}
+
+body {
+    font-family:'Montserrat', sans-serif; 
+}
+
+.top {
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(../img/Rectangle-1.jpg);
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 217px;
+    width: 789px;
+}
+
+.top__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 481px;
+    margin-top: 32px;
+}
+
+.button {
+    position: absolute;
+    width: 234px;
+    height: 49px;
+    background: #9C0332;
+    border-radius: 30px;
+    margin-top: 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.box_games {
+    height: 556px;
+    background: #000915;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.games__1 {
+    width: 379px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle-6.jpg);
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 236px;
+}
+
+.games__2 {
+    width: 379px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle-7.jpg);
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 236px;
+}
+
+.games__3 {
+    width: 379px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle-8.jpg);
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 236px;
+}
