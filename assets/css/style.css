@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .center  {
     padding-left: calc(50% - 600px) ;
-    padding-right:calc(50% - 600px) ;
+    padding-right: calc(50% - 600px) ;
 }
 
 body {
@@ -21,7 +25,7 @@ body {
     background-size:cover;
 }
 
-.title {
+.top__title {
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -42,11 +46,12 @@ body {
     margin-top: 32px;
 }
 
-.button {
+.top__button {
     position: absolute;
     width: 234px;
     height: 49px;
     background: #9C0332;
+    border: 1px solid #9C0332;
     border-radius: 30px;
     margin-top: 44px;
     font-family: 'Montserrat';
@@ -64,47 +69,29 @@ body {
     gap: 32px;
 }
 
-.games__1 {
+.games__box {
     width: 379px;
     height: 300px;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 236px;
+
+}
+
+.games__box_1 {
     background: url(../img/Rectangle-6.jpg);
-    border-radius: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 32px;
-    padding-top: 236px;
+   
 }
 
-.games__2 {
-    width: 379px;
-    height: 300px;
+.games__box_2 {
     background: url(../img/Rectangle-7.jpg);
-    border-radius: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 32px;
-    padding-top: 236px;
 }
 
-.games__3 {
-    width: 379px;
-    height: 300px;
+.games__box_3 {
     background:  url(../img/Rectangle-8.jpg);
-    border-radius: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 32px;
-    padding-top: 236px;
 }
