@@ -1,0 +1,43 @@
+
+@media (max-width: 767px){
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        height: 735px;
+        padding-top: 237px;
+        &__content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__title {
+            width: 343px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            }
+            &__text {
+                width: 343px;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+            }    
+    }
+
+    .games__box {
+        width: 767px;
+        background-size: cover;
+    } 
+}
+
+@media (max-width: 720px) {
+    .top {
+        background: url(../img/Rectangle-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
