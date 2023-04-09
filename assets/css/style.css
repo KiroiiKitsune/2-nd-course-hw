@@ -5,12 +5,12 @@
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.center  {
-    padding-left: calc(50% - 600px) ;
-    padding-right:calc(50% - 600px) ;
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 body {
@@ -25,17 +25,15 @@ body {
   background-size: cover;
   padding-top: 217px;
 }
-
-.title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    padding-top: 217px;
-    width: 789px;
+.top__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  width: 789px;
 }
 .top__text {
   font-weight: 300;
@@ -45,20 +43,19 @@ body {
   width: 481px;
   margin-top: 32px;
 }
-
-.button {
-    position: absolute;
-    width: 234px;
-    height: 49px;
-    background: #9C0332;
-    border-radius: 30px;
-    margin-top: 44px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
+.top__button {
+  width: 234px;
+  height: 49px;
+  background: #9C0332;
+  border: none;
+  border-radius: 30px;
+  margin-top: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
 }
 
 .games {
@@ -69,50 +66,63 @@ body {
   flex-wrap: wrap;
   gap: 32px;
 }
-
-.games__1 {
-    width: 379px;
-    height: 300px;
-    background: url(../img/Rectangle-6.jpg);
-    border-radius: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 32px;
-    padding-top: 236px;
+.games__box {
+  width: 379px;
+  height: 300px;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-top: 236px;
+}
+.games__box_1 {
+  background: url(../img/Rectangle-6.jpg);
+  background-position: center;
+}
+.games__box_2 {
+  background: url(../img/Rectangle-7.jpg);
+  background-position: center;
+}
+.games__box_3 {
+  background: url(../img/Rectangle-8.jpg);
+  background-position: center;
 }
 
-.games__2 {
-    width: 379px;
-    height: 300px;
-    background: url(../img/Rectangle-7.jpg);
-    border-radius: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 32px;
-    padding-top: 236px;
-}
-
-.games__3 {
-    width: 379px;
-    height: 300px;
-    background:  url(../img/Rectangle-8.jpg);
-    border-radius: 16px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 32px;
-    padding-top: 236px;
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    padding-top: 237px;
+  }
+  .top__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .top__title {
+    width: 343px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__text {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .games__box {
+    width: 767px;
+    background-size: cover;
+  }
 }
 @media (max-width: 720px) {
   .top {
