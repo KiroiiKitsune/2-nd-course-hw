@@ -56,6 +56,10 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  transition: all 1.05s;
+}
+.top__button:hover {
+  background: #EB443F;
 }
 
 .games {
@@ -78,6 +82,9 @@ body {
   color: #FFFFFF;
   padding-left: 32px;
   padding-top: 236px;
+}
+.games__box:hover {
+  border: 3px solid #44D2FF;
 }
 .games__box_1 {
   background: url(../img/Rectangle-6.jpg);

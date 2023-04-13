@@ -55,6 +55,10 @@ body {
         font-size: 18px;
         line-height: 22px;
         color: #FFFFFF;
+        transition: all 1.05s;
+        &:hover {
+            background: #EB443F;;
+        }
     }
 }
 
@@ -78,6 +82,9 @@ body {
         color: #FFFFFF;
         padding-left: 32px;
         padding-top: 236px;
+        &:hover {
+           border: 3px solid #44D2FF;
+        }
             &_1 {
                 background: url(../img/Rectangle-6.jpg);
                 background-position: center;                 
