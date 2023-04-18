@@ -4,14 +4,17 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+
     .top {
         height: 735px;
         padding-top: 237px;
+
         &__content{
             display: flex;
             align-items: center;
             flex-direction: column;
         }
+
         &__title {
             width: 343px;
             font-weight: 700;
@@ -19,6 +22,7 @@
             line-height: 39px;
             text-align: center;
             }
+
             &__text {
                 width: 343px;
                 font-weight: 300;
@@ -32,6 +36,34 @@
         width: 767px;
         background-size: cover;
     } 
+
+    .gameone {
+        padding-top: 51px;
+        padding-bottom: 85px;
+
+        &__content{
+            display: flex;
+            align-items: center;
+            padding-bottom: 64px;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__text {
+            width: 343px;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__img{
+            width: 344px;
+            height: 236px;
+        }
+    }
 }
 
 @media (max-width: 720px) {

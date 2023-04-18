@@ -104,6 +104,61 @@ body {
 
 }
 
+// первая игра "Времена года"
+
+.gameone {
+    background: #000915;
+    padding-top: 233px;
+    padding-bottom: 233px;
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+    &__content{
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }    
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+            }
+
+    &__text {
+        width: 584px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }    
+
+    &__play {
+        width: 234px;
+        height: 48px;
+        background: #9C0332;
+        border-radius: 30px;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        transition: all 1.05s;
+        &:hover {
+            background: #EB443F;;
+        }   
+    }
+    
+}
+
 @import 'mobile';
 
 
