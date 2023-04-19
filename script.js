@@ -1,32 +1,23 @@
-function gameOne() {
-
-        let monthNumber = Number (prompt('Введите номер месяца, для определения сезона'));
-    
-    switch (monthNumber) {
-        case 1:
-        case 2:
-        case 12:    
-            alert ('зима')
-            break;
-        case 3:        
-        case 4:        
-        case 5:
-            alert ('весна')
-            break;
-        case 6:       
-        case 7:        
-        case 8:
-            alert ('лето')
-            break;                
-        case 9:
-        case 10:
-        case 11:
-            alert ('осень')
-            break;  
-        default: 
-        alert ('Ты слегка ошибся')
-            break;
-    }
-
+const findSeason = (a) => {
+  if (isNaN(a) || a <= 0 || a >= 13) {
+    do {
+      alert ('Вы ввели не коректное значение');
+      a= Number(prompt('Введите номер месяца'))
+    }while (isNaN(a) || a <= 0 || a >= 13);
+  }
+  if (a === 1 || a === 2 || a === 12) {
+    return 'Зима';
+  } else if (a >= 3 && a <= 5) {
+    return 'Весна';
+  } else if (a >= 6 && a <= 8) {
+    return 'Лето';
+  } else {
+    return 'Осень';
+  }
 }
 
+const playFirstGame = () => {
+  alert ('Ну что поехали !');
+  let monthNumber = Number(prompt('Введите номер месяца.'));
+  alert(findSeason(monthNumber));
+}
