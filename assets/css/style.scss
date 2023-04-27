@@ -15,6 +15,7 @@ a {
 
 body {
     font-family:'Montserrat', sans-serif; 
+    background: #000915;
 }
 
 .top {
@@ -29,7 +30,6 @@ body {
         font-weight: 700;
         font-size: 64px;
         line-height: 78px;
-        display: flex;
         align-items: center;
         color: #FFFFFF;
         width: 789px;
@@ -87,7 +87,8 @@ body {
         }
             &_1 {
                 background: url(../img/Rectangle-6.jpg);
-                background-position: center;                 
+                background-position: center; 
+                background-size: cover;                
             }
 
             &_2 {
@@ -106,17 +107,17 @@ body {
 
 // первая игра "Времена года"
 
-.gameone {
+.game {
     background: #000915;
-    padding-top: 233px;
-    padding-bottom: 233px;
-    &__box {
+}
+
+.seasons{
+        padding-top: 233px;
+        padding-bottom: 233px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        }
-
     &__content{
         display: flex;
         gap: 32px;
@@ -137,26 +138,58 @@ body {
         font-size: 18px;
         line-height: 32px;
         color: #FFFFFF;
-    }    
+    }       
+}
 
-    &__play {
-        width: 234px;
-        height: 48px;
-        background: #9C0332;
-        border-radius: 30px;
-        border: none;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        color: #FFFFFF;
-        transition: all 1.05s;
-        &:hover {
-            background: #EB443F;;
-        }   
-    }
-    
+.remember{
+    padding-top: 239px ;
+    padding-bottom: 239px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+            
+            &__content {
+                display: flex;
+                gap: 32px;
+                flex-direction: column;
+            }
+            &__title {
+                width: 396;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 59px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+            &__text {
+                width: 588px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 32px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+}
+
+.button {
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: all 1.05s;
+    &:hover {
+        background: #EB443F;;
+    }   
 }
 
 @import 'mobile';

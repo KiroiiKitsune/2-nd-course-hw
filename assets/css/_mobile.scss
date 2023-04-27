@@ -37,32 +37,61 @@
         background-size: cover;
     } 
 
-    .gameone {
+    .seasons{
         padding-top: 51px;
         padding-bottom: 85px;
+        display: flex;
+        flex-direction: column; 
+                &__content{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 64px;
+                }
 
-        &__content{
-            display: flex;
-            align-items: center;
-            padding-bottom: 64px;
-        }
+                &__title {
+                    font-size: 32px;
+                    line-height: 39px;
+                }
 
-        &__title {
-            font-size: 32px;
-            line-height: 39px;
-        }
+                &__text {
+                    width: 343px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                }
 
-        &__text {
-            width: 343px;
-            font-size: 14px;
-            line-height: 22px;
-            text-align: center;
-        }
+                &__img{
+                    width: 344px;
+                    height: 236px;
+                }
+    }
 
-        &__img{
-            width: 344px;
-            height: 236px;
-        }
+    .remember {
+        padding-top: 51px;
+        padding-bottom: 91px;
+        display: flex;
+        flex-direction: column-reverse;
+
+                &__content{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 64px;
+                }
+                &__title{
+                    font-size: 32px;
+                    line-height: 39px;
+                }
+                &__text{
+                    width: 343px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+
+                &__img{
+                    width: 344px;
+                    height: 231px;
+                }
     }
 }
 
