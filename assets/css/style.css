@@ -99,6 +99,54 @@ body {
   background-position: center;
 }
 
+.gameone {
+  background: #000915;
+  padding-top: 233px;
+  padding-bottom: 233px;
+}
+.gameone__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.gameone__content {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.gameone__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.gameone__text {
+  width: 584px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.gameone__play {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  transition: all 1.05s;
+}
+.gameone__play:hover {
+  background: #EB443F;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -130,6 +178,29 @@ body {
   .games__box {
     width: 767px;
     background-size: cover;
+  }
+  .gameone {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .gameone__content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+  }
+  .gameone__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .gameone__text {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .gameone__img {
+    width: 344px;
+    height: 236px;
   }
 }
 @media (max-width: 720px) {
