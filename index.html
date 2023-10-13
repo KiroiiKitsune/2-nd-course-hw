@@ -20,18 +20,27 @@
     </div>
     <div class="games center">
             <a onclick="playFirstGame()" class="games__box games__box_1" href="">Игра 1</a>
-            <a class="games__box games__box_2" href="">Игра 2</a>
+            <a onclick="fructShow()" class="games__box games__box_2" href="">Игра 2</a>
             <a class="games__box games__box_3" href="">Игра 3</a>
     </div>
-    <div class="gameone center">
-        <div class="gameone__box">
-            <div class="gameone__content">
-                <h1 class="gameone__title">Времена года!</h1>
-                <p class="gameone__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-                <button onclick="playFirstGame()" type="submit" class="gameone__play">Играть!</button>
+    <div class="game center">
+        <div class="game__box seasons">
+            <div class="seasons__content">
+                <h1 class="seasons__title">Времена года!</h1>
+                <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+                <button onclick="playFirstGame()" type="submit" class="seasons__play button">Играть!</button>
             </div>
-            <img class="gameone__img" src="./assets/img/undraw_video_game_night_8h8m 1.svg" alt="">
+            <img class="seasons__img" src="./assets/img/undraw_video_game_night_8h8m 1.svg" alt="">
         </div>
+        <div class="game__box remember">
+            <img class="remember__img" src="./assets/img/undraw_gaming_re_cma2.svg" alt="" >
+            <div class="remember__content">
+                <h1 class="remember__title">Запомни слова </h1>
+                <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                <button onclick="fructShow()" type="submit" class="remember__play button">Играть!</button>
+            </div>
+        </div>
+        
     </div>
    <script src="./script.js"></script>
 </body>
